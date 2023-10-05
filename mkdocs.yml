@@ -1,0 +1,35 @@
+site_name: Hendrix KG Info
+site_url: https://kg.mattergen.io
+nav:
+  - Home: index.md
+  - Library:
+    - 'Library': library/index.md
+    - 'Resource Management': library/resource_management.md
+  - Calculators:
+    - 'Calculators': calculators/index.md
+    - 'Mightiest Kingdom': calculators/mightiest_kingdom/index.md
+theme:
+  name: material
+plugins:
+  - macros
+extra:
+  calc_data:
+    mk:
+      monday:
+        'T1 Tome': 800
+        'T2 Tome': 4000
+        'T3 Tome': 20000
+        'T4 Tome': 100000
+        'Master Talent': 5
+        'Crown of Oracle': 56
+        'Gallery Shard': 1000
+      tuesday:
+        'Rare Rune': 70
+        'Excellent Rune': 700
+        'Perfect Rune': 7000
+        'Epic Rune': 14000
+        'Light Reagent': 70
+        'Forge Hammer': 100
+        'Buy Adv Scroll': 14
+        'Buy Perfect Scroll': 140
+        'Gallery Shard': 1000
